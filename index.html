@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-cookie</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section id="container-login">
+        <h2>Login</h2>
+        <form action="/login" method="GET">
+          <div class="container-input">
+            <label for="email">E-mail</label>
+            <!-- <input type="tel" name="phone" placeholder="(__) _ ____-____" required /> -->
+            <!-- <input type="number" name="phone" placeholder="Telefone" required /> -->
+            <!-- <input type="text" name="phone" placeholder="Telefone" required /> -->
+            <!-- henrique@email.com -->
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+          </div>
+
+          <div class="container-input">
+            <label for="password">Senha</label>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="Senha"
+              required
+            />
+          </div>
+          <input type="submit" value="Login" />
+          <a href="./cadastro.html">Não possui conta? Cadastre-se </a>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
